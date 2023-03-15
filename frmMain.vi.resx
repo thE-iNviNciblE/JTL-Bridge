@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnDistanz.Text" xml:space="preserve">
+    <value>Khoảng cách...</value>
+  </data>
+  <data name="btnNeuerKunde.Text" xml:space="preserve">
+    <value>Khách hàng...</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblKundenData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 16</value>
+  </data>
+  <data name="lblKundenData.Text" xml:space="preserve">
+    <value>khách hàng lựa chọn</value>
+  </data>
+  <data name="colBestellBild.HeaderText" xml:space="preserve">
+    <value>hình ảnh</value>
+  </data>
+  <data name="colBestellMenge.HeaderText" xml:space="preserve">
+    <value>Số tiền</value>
+  </data>
+  <data name="ArtNr.HeaderText" xml:space="preserve">
+    <value>Mô hình</value>
+  </data>
+  <data name="colBestellName.HeaderText" xml:space="preserve">
+    <value>chỉ</value>
+  </data>
+  <data name="colBestellNetto.HeaderText" xml:space="preserve">
+    <value>net</value>
+  </data>
+  <data name="colBestellBrutto.HeaderText" xml:space="preserve">
+    <value>tổng</value>
+  </data>
+  <data name="colBestellNettoGes.HeaderText" xml:space="preserve">
+    <value>net Ges</value>
+  </data>
+  <data name="colBestellBruttoGes.HeaderText" xml:space="preserve">
+    <value>tổng Ges</value>
+  </data>
+  <data name="Lagerbestand.HeaderText" xml:space="preserve">
+    <value>trại</value>
+  </data>
+  <data name="colKundenNr.Text" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="colKundenVorname.Text" xml:space="preserve">
+    <value>tên</value>
+  </data>
+  <data name="colKundenNachname.Text" xml:space="preserve">
+    <value>Lần tên</value>
+  </data>
+  <data name="colKundenStadt.Text" xml:space="preserve">
+    <value>Thành phố</value>
+  </data>
+  <data name="colKundenStrasse.Text" xml:space="preserve">
+    <value>đường</value>
+  </data>
+  <data name="colKundenPLZ.Text" xml:space="preserve">
+    <value>Mã bưu</value>
+  </data>
+  <data name="colKundenLand.Text" xml:space="preserve">
+    <value>Quốc gia</value>
+  </data>
+  <data name="colKundenFirma.Text" xml:space="preserve">
+    <value>Công ty</value>
+  </data>
+  <data name="colKundenTel.Text" xml:space="preserve">
+    <value>điện thoại</value>
+  </data>
+  <data name="colKundenEmail.Text" xml:space="preserve">
+    <value>Thư điện tử</value>
+  </data>
+  <data name="colKundenExists.Text" xml:space="preserve">
+    <value>tồn tại</value>
+  </data>
+  <data name="txtSuchenKunde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 42</value>
+  </data>
+  <data name="txtSuchenKunde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 20</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="btnCatMarketing.Text" xml:space="preserve">
+    <value>Tiếp thị</value>
+  </data>
+  <data name="btnCatPflegeHygiene.Text" xml:space="preserve">
+    <value>Chăm sóc vệ sinh</value>
+  </data>
+  <data name="btnCatGelSystem.Text" xml:space="preserve">
+    <value>Gel hệ thống</value>
+  </data>
+  <data name="lblSuche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 102</value>
+  </data>
+  <data name="lblSuche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 16</value>
+  </data>
+  <data name="lblSuche.Text" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="btnCatFeilenPolieren.Text" xml:space="preserve">
+    <value>đánh bóng tập tin</value>
+  </data>
+  <data name="btnCatAcrylSystem.Text" xml:space="preserve">
+    <value>Hệ thống Acrylic</value>
+  </data>
+  <data name="btnCatNageldesign.Text" xml:space="preserve">
+    <value>Thiết kế Nail</value>
+  </data>
+  <data name="btnCatAlle.Text" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="btnCatSalonausstattung.Text" xml:space="preserve">
+    <value>Salon Thiết bị</value>
+  </data>
+  <data name="tbAlle.Text" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="colBild.Text" xml:space="preserve">
+    <value>hình ảnh</value>
+  </data>
+  <data name="colArtikelNr.Text" xml:space="preserve">
+    <value>Mô hình</value>
+  </data>
+  <data name="colName.Text" xml:space="preserve">
+    <value>Tên sản phẩm</value>
+  </data>
+  <data name="colNetto.Text" xml:space="preserve">
+    <value>net</value>
+  </data>
+  <data name="colBrutto.Text" xml:space="preserve">
+    <value>tổng</value>
+  </data>
+  <data name="colLagerbestand.Text" xml:space="preserve">
+    <value>trại</value>
+  </data>
+  <data name="colEKNetto.Text" xml:space="preserve">
+    <value>EK net</value>
+  </data>
+  <data name="colEKBrutto.Text" xml:space="preserve">
+    <value>EK tổng</value>
+  </data>
+  <data name="colGewicht.Text" xml:space="preserve">
+    <value>Trọng lượng</value>
+  </data>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADc
+        IwAAAk1TRnQBSQFMAgEBAwEAAawBAAGsAQABPAEAATwBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwAB8AMAATwDAAEBAQABCAUAAUABOBgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
+        AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
+        AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
+        AwABZgMAAZkDAAHMAgABMwMAAjMCAAEzAWYCAAEzAZkCAAEzAcwCAAEzAf8CAAFmAwABZgEzAgACZgIA
+        AWYBmQIAAWYBzAIAAWYB/wIAAZkDAAGZATMCAAGZAWYCAAKZAgABmQHMAgABmQH/AgABzAMAAcwBMwIA
+        AcwBZgIAAcwBmQIAAswCAAHMAf8CAAH/AWYCAAH/AZkCAAH/AcwBAAEzAf8CAAH/AQABMwEAATMBAAFm
+        AQABMwEAAZkBAAEzAQABzAEAATMBAAH/AQAB/wEzAgADMwEAAjMBZgEAAjMBmQEAAjMBzAEAAjMB/wEA
+        ATMBZgIAATMBZgEzAQABMwJmAQABMwFmAZkBAAEzAWYBzAEAATMBZgH/AQABMwGZAgABMwGZATMBAAEz
+        AZkBZgEAATMCmQEAATMBmQHMAQABMwGZAf8BAAEzAcwCAAEzAcwBMwEAATMBzAFmAQABMwHMAZkBAAEz
+        AswBAAEzAcwB/wEAATMB/wEzAQABMwH/AWYBAAEzAf8BmQEAATMB/wHMAQABMwL/AQABZgMAAWYBAAEz
+        AQABZgEAAWYBAAFmAQABmQEAAWYBAAHMAQABZgEAAf8BAAFmATMCAAFmAjMBAAFmATMBZgEAAWYBMwGZ
+        AQABZgEzAcwBAAFmATMB/wEAAmYCAAJmATMBAANmAQACZgGZAQACZgHMAQABZgGZAgABZgGZATMBAAFm
+        AZkBZgEAAWYCmQEAAWYBmQHMAQABZgGZAf8BAAFmAcwCAAFmAcwBMwEAAWYBzAGZAQABZgLMAQABZgHM
+        Af8BAAFmAf8CAAFmAf8BMwEAAWYB/wGZAQABZgH/AcwBAAHMAQAB/wEAAf8BAAHMAQACmQIAAZkBMwGZ
+        AQABmQEAAZkBAAGZAQABzAEAAZkDAAGZAjMBAAGZAQABZgEAAZkBMwHMAQABmQEAAf8BAAGZAWYCAAGZ
+        AWYBMwEAAZkBMwFmAQABmQFmAZkBAAGZAWYBzAEAAZkBMwH/AQACmQEzAQACmQFmAQADmQEAApkBzAEA
+        ApkB/wEAAZkBzAIAAZkBzAEzAQABZgHMAWYBAAGZAcwBmQEAAZkCzAEAAZkBzAH/AQABmQH/AgABmQH/
+        ATMBAAGZAcwBZgEAAZkB/wGZAQABmQH/AcwBAAGZAv8BAAHMAwABmQEAATMBAAHMAQABZgEAAcwBAAGZ
+        AQABzAEAAcwBAAGZATMCAAHMAjMBAAHMATMBZgEAAcwBMwGZAQABzAEzAcwBAAHMATMB/wEAAcwBZgIA
+        AcwBZgEzAQABmQJmAQABzAFmAZkBAAHMAWYBzAEAAZkBZgH/AQABzAGZAgABzAGZATMBAAHMAZkBZgEA
+        AcwCmQEAAcwBmQHMAQABzAGZAf8BAALMAgACzAEzAQACzAFmAQACzAGZAQADzAEAAswB/wEAAcwB/wIA
+        AcwB/wEzAQABmQH/AWYBAAHMAf8BmQEAAcwB/wHMAQABzAL/AQABzAEAATMBAAH/AQABZgEAAf8BAAGZ
+        AQABzAEzAgAB/wIzAQAB/wEzAWYBAAH/ATMBmQEAAf8BMwHMAQAB/wEzAf8BAAH/AWYCAAH/AWYBMwEA
+        AcwCZgEAAf8BZgGZAQAB/wFmAcwBAAHMAWYB/wEAAf8BmQIAAf8BmQEzAQAB/wGZAWYBAAH/ApkBAAH/
+        AZkBzAEAAf8BmQH/AQAB/wHMAgAB/wHMATMBAAH/AcwBZgEAAf8BzAGZAQAB/wLMAQAB/wHMAf8BAAL/
+        ATMBAAHMAf8BZgEAAv8BmQEAAv8BzAEAAmYB/wEAAWYB/wFmAQABZgL/AQAB/wJmAQAB/wFmAf8BAAL/
+        AWYBAAEhAQABpQEAA18BAAN3AQADhgEAA5YBAAPLAQADsgEAA9cBAAPdAQAD4wEAA+oBAAPxAQAD+AEA
+        AfAB+wH/AQABpAKgAQADgAMAAf8CAAH/AwAC/wEAAf8DAAH/AQAB/wEAAv8CAAP/AQAC8gPzFvIV8wny
+        AfMB9AH/AQ4GDwQQAyIBEQNDARUBcwgaAhsBGgm8AvAB8QIbAvEBGgLwBbwDBwHvAfc87DwABgcU7xcH
+        CO8BvAHyAfQBDgUPBRACIgERBEMBFQFEAZkFGgPDARoGvALwAfEJGwHwBLwGBwHvPOw8AAPrAuwB6xRt
+        A+sB7AiuAuwD7QLsAa4B7ALrCG0BkgG8AfMBDgUPBBADIgERA0MDFQHsBRoDvAUbAvAB8QIbAfIIGwHw
+        A7wEBwG8Awc87DwAA0MBFQFDAhEBEAMPDA4BDwEQAREBQwIVCmYBEwESAeoCEgNmARUBQwURAhABDwFt
+        Ae8B8gEOBQ8DEAQiAREDQwMVARQD7wYHArwB8AEbAvAEvAfwAfIBGwHxAvAB8QG8AQcBvAEaArwBBzzs
+        PAADQwEVAUMBEQEQDQ8DDgEPARABEQFDAhUKZgIUAxMEZgVDAxEBEAFtAe8B8gEOBA8EEAQiBEMCFQJE
+        AW0D7wG7BAcBuwMHArwBCQq8AvAB8QHwAfECGwG8AfABvAEHAbwBBxvsA20e7DwAA0MBFQFDAREBEA4P
+        Ag4BDwEQAREBQwIVBWYDFQJDAxUCFAVmAxUDQwIRAesBBwHyBQ8DEAQiAREEQwIVAkQBFAH3AQcB7wK7
+        AQcHuwG8BAkHvALwAbwDGwHwA7wDBxnsARIBbQHtAQcB7wHsAeoc7DwAA0MBFQFDAREBEAgPARAGDwEO
+        AQ8BEAERAUMCFQRmAxUGQwIVB2YCFQRDAesBBwHyAQ4EDwMQAiIDEQNDAxUBRAIUARID7wK7AQcHuwG8
+        AQkFvAHwAfEB8AK8AfAB8QMbArwB8AG8AwcW7QHsAm0DBwK8AQcB9wFtG+08AAVDAREBEAEPAQ4GDwIQ
+        Bw8BEAERAUMCFQNmAhQCFQdDARUHZgQVAkMB7AEHAfIFDwMQASICEQEiA0MDFQJEAhQBRAHsAbsC7wm7
+        AgkB8APzAfECGwHxBBsBwwEbAvEBvALwAbwCBw/tAW0B6gFtARIC6gJtAe0DBwO8AQcB9wFtAewa7TwA
+        BUMBEQEQAQ8BDgYPARAEDwQQARECQwIUARMBEgETAWYBFAMVBUMBFQhmAhUEQwHrAQcB8gQPBBACIgER
+        AiICQwMVAkQBFAJEARMB9wu7AgkBvAHwAfMC8QEbAfECvAHwA7wBBwS8ARoBvAIHDpIB6wEHA7wB7wHt
+        AesGBwK8AQcB9wHrAW0akjwABUMBEQEQAQ8BDgkPBBACEQJDARUBFAETAxIBExJmAhUDQwERAesBBwHy
+        BA8EEAQiA0MCFQNEARQBRAEUAUQB6wy7AQkBvALwAfEC9gHzARsC8AW8AvADvAEHAbwPkgW8ARMB6gHr
+        BAcDvAEHAfcB6wFtAewZkjwABUMBEQEQAQ8BDgkPAxACEQJDARUBFAETARIB6gFtAhISZgIVAkMCEQHr
+        AQcB8gMPBBADIgRDAhUJRAHtAgcBuwEHArwBBwK7AgcEvAHxARsD9gLzAhsC8AG8AfACGgHwArwBBw/3
+        BbwB7QHsAeoBvAMHArwB8AG8AfcC6wFtGfc8AARDAhEBEAsPAhABEQFDAhUDFAETAhIC6gESEmYCFAEV
+        AkMBEQHrAQcB8gQPAhAEIgRDAhUJRAHqAe8BBwK8AhsBvAEHBe8BBwG8AfAB8QHyAhsF9gHyArwEBxHv
+        BbwBBwHsAQcBvAIHArwC8AG8AfcBbQHsAW0B7RjvPAABEQJDAhECEAwPARABEQFDAhUBFAMTBBITZgQU
+        ARUBQwHrAQcB8gQPAhADIgERBEMCFQpEAesB7wEHAbwB8AEHAe8E9wLvAQcB8AQbAfQB9gH/AvYB8wK8
+        AgcD7wL3D+8KvAEHArwD8AEHAW0C7AFtGO88AAIMAxECEA0PAREBQwRmAmwFZgaLBmYBbAVmAhMBEgET
+        ARQBFQHsAQcB8wERBRACIgMRA0MCFQtEAe0B7wb3Au8BBwG8BBsC9gHxA/MC/wHzAfEBvAIHA+8B9w/v
+        CLwB7QHsAbwBBwLvAewB7QEHAe0B6wHtAesB7RfvPAACDAEQAhECEAQPAg4HDwERARUDZgNsBGYBhgeL
+        BGYDbARmARIC6gESARMBFAHsAQcB8wFtARQCEQEQAiIFEQNDAhUKRAFKAZID9wLvAgcBvAHwAhsE9gH0
+        BBkB3QHyAf8B9gEbAvACvAHxDgcB7wEHAfACvAHsAfcDvAHsAfcBvAPvAesB6gHtAQcC7AHtAesXBzwA
+        AQwCQwIVAUMCEQEQCA8DEAFDARUEZgJsBGYBhgaLAYYFZgFsBWYBEgLqARIBEwEUAewBBwHzAe0B7AHr
+        ARIBQwURAUMBEQNDAhULRAHrA+8BBwO8AfEBGwT2Av8B9AHxAxkC3QEZAfQC9gH0AfMBGwH0AbwPBwHv
+        AfcBBwHrAe8FvAEHA+8BEwFtAe8CBwHrAZIB6wGSFgc8AAFDBWYBFQFDAREBEAYPAxABEQFDARUIZgiG
+        AmYGhgVmARIC6gESARMBFAHsAQcB8wTtAewB6gEVAkMBEQVDAhULRAFKAewCBwG8AfADGwT2BP8B8gHx
+        AxkB8QLdAfMB9AH/AfYB9AHyDwcB7wERARIB7AHwBbwB8APvAUMBFQESAgcBvAH3AewB7QFtFgc8AANm
+        AmwBZgEUARUBQwERARAEDwIQAhEBQwIVB2YIhgNmB4YEZgESAuoBEgETAWYBrgEHAfMD7APtAewBbQEU
+        BkMEFQtEAe8BvAHxARsB9AX2Bv8C9AHzBBkC8QHyAfMB8AG8AfcPvAH3AuwB8AS8AgcC9wFtARIBFAEV
+        Ae8BBwK8AewB7wESAfcVvDwAAmYDiwFsARMBFAFDAREBEAIPAxABEQJDARUBFAdmCIYEZgeGBGYEEgJm
+        Aa4BBwHzBe0BkgHtApEB6wESARQBFQFDARUBQwMVC0QB6gEaARsE9gz/AfQC8wEZAfIC9AHzAfABBwHv
+        EbwB9wHvAewBbQEUARABEQFDARMBQwERAWwCFQETAe0BBwG8Ae8B9wHrAW0VvDwAAWYCiwKuAWwBEwEU
+        AUMBEQEQAg8CEAERARUBFAESA+oKiwSGBWYFhgZmAhIDZgGuAQcB8wTtAZIB7QKRArQBkQHsAesBEgEU
+        BRULRAHrAcMC9hb/AfQB8gEHEPABvAH3AesBFQFDAhUBQwERARACDwEVAREBQwIVARIBvAHwAfcB7AES
+        AfcU8DwABa4BbQESARUCEQEQAQ8CEAERAUMBFAHqAW0C7AquBIsBhhFmBIYBrgEHAfMF7QKRBLQBtQK0
+        AZEB6wESARQDFQtEAW0BGhj/AfQB8A7xAfAB7AJDAhIBEwHqAW0B6wFtARIBEQEPAg4CEAJDAQcB8ALv
+        ARIBbQHwE/E8AAKuA+wB6wESARUBEQIQAQ8BEAIRAUMBEgFtAewC9we0A5EBrgSLEGYFhgHPAQcB8wHt
+        A+wDkQW0BbUBkQHqARQDFQtEAe0X/wH2AfMO8QEHARUBEQEPAW0B7wTwAvEBBwESARUBSgFEARECEAHt
+        AfABvAH3AW0BEgEHE/E8AAKuA+wB6wESAUMDEAEPARABQwEVARQB6gHsAZIC7wG1B7QEkQSLD2YFhgGu
+        AQcB8wHtAa4EkQW0CLUBkQHqDkQBHBf/AfYP8gHsAQ8BbQTwBPEB8AEHARMBSgEDAUQCEQEVAQcB8AHt
+        AewBFAGSE/I8AAGuBOwBbQETAUMEEAERARUBFAESAesB7AH3A+8EtQK0B5EJrgGLAWwD6ghmAa4BBwHz
+        AewCrgORBbQKtQESARQCRAEVBkQBQwNEAe8X/xDyARMB6wHwAbwBBwHvA/cBBwG8AQcB6wFJAVEBSwFD
+        ARABFQESAe8B7QHsARQBkhPyPAAB6wLsAq4BbQETAUMEEAFDARQBEgHqAewB7QH3AQcD7wG1BfcCkgTt
+        AuwD7QWRBa4BEgRmAhUB6wEHAfMDrgORBLQJtQK7AbUB6gFDARUCQwREA0MDRAHyFv8Q8wHyAQcBvAHv
+        AZIE7ALrAe0B6gFJAUoCSwERASIBFQETAZIB6wEUAe8T8zwAAusDrgHqARQBQwMQAREBFQETAeoBrgHs
+        AfcB7wIHA+8J9wIcAvcD7wO7BJEDrgHqARMBFAEVAkMBEQFtAe8B8gOuA5EFtAe1A7sBBwH3AUMBEQEi
+        AkMDRARDAkQBbgH2Dv8B9AHzAfQE/xLzAe8B7QHsARMBFAFEARQCRAFKAUMBFQEUAUoBRAEQAQ8BEAHs
+        Ae8BEwEUAQcT8zwAAesErgHqARQBQwEQAxEBFQESAq4BkQH3Ae8DBwLvAfcBkgntAvcD7wO7AfcEkQKu
+        AW0B6gETARQBFQERARABbQHvAfIDrgORBbQHtQS7Ae8DEQIiCEMCRAEcDv8B9AHzAv8B9AL/FPQB7wIP
+        BBEBEAEPAxACDwEiAUUBRgH3ARIBQwEHE/Q8AASuAYsBbAEUAUMEEQEUARIBrgHPAbQB9wHvAQcB7wEH
+        Au8B9wHtCpEBkgS1AbsBtQH3ApEB7QPsAesBbQHqARMBFAEVARABbQHvAfIDrgORBbQHtQS7AQcDEQYi
+        BUMCRAEcEf8C9AH/FfQB7wEUAQ8CEQNEASIBRAJFA0YBRQFtAesBEQHxE/Q8AAKGA4sBbAFmARUCEQJD
+        ARQB6gGuAbQBtQH3Ae8BmQEHAu8C9wGRCa4BkQi0Bu0B7AHrAa4B6gETARUBEQFtAe8B8gOuA5EFtAe1
+        A7sCvAEUAUMCIgEQBiIEQwJEARwR/wH2F/8BdARGASUDRgFMBEYBIwFEAhQB9BP/PAADhgKLAWwBZgEV
+        BEMBFAFsAa4BtAG1Au8CmQLvAfcCkQqLCLQDkgMcAe0B7AKuARIBFAERAW0B7wHyA64DkQW0B7UBuwEJ
+        A7wBFAERAiIBEAgiBEMBRAEHDf8D9AH/AfYU/wH0AbwBTAIlAm8BdAHtAfcB7wEcAkYCTAEjARABIgHs
+        FP88AAKGA4sCbAEUAhUCQwEUAWwBrgK0AfcB7wGZA+8B9wG0AZEJiwGtCLQBkQHsAu0CHAGSAe0C7AHr
+        AeoBEwHsAQcB8wOuA5EFtAe1AbsCBwK7ARMBEQIiARAEIgFDASIBQwERAiICQwJEAe0B9Ar/BvMU/wHq
+        ASMCRgFMAQcG7wNMAUYBIwEQASMBRAG8E/88AAGGBIsBbAESARMBFAIVAUMBFAHqAa4BtAGRAfcD7wH3
+        ArUDtASzBa0ItAGRAa4BkQHtAZID9wGSAe0B7AHrAW0BkgG8AfMErgKRBLQCtQHvBLUGuwETARECIgIQ
+        AiIBQwMiBkMBRAEVAUQB8Ab/AvMD8gEbA/MT/wH0AQ8BIwFGASUBRgLvBfcBTAElAkUBIwEQAiMBQxP/
+        PAADrgKRAa4BbQESARMBFAEVAUMBFAHqAesCkQH3A+8BtQq0BK0ItAGuAYsBrgHsAZIB9wUcAe0B7AHv
+        AbwB8wSuApEEtAG1AbwBBwS1BrsBFAEVARECIgEQBSIBQwFEAW4B7AFzAUQDQwEVAUQB8QT/AfQB8QHw
+        A/EBGwP2E/8B7wEPASMCJAFFAUsG7AHrA0UBRAIjAUQBDgHyEv88AAKuA5EB6wFtARIBEwIUARUBFAHq
+        AesCkQGSAfcB7wK1CrQErQe0AbMDiwGRAe0C9wEcA5kCHAEHAfAB9AOuApEFtAK1AQcDtQa7AQkB7QHr
+        AhEBIgEQAiICQwEiAUMBbgH0Av8B8QESA0MBFQFEAfAD/wH0AfIB8APyAfMW/wHtARADJAJFAUQB6gFt
+        A+sC7AJFAkQCRQEOAe8S/zwAAq4EkQFtARIBEwIUARUBFAJsBJEBkgG1C7QBzwKtAbMHtAGzA4sBrgKR
+        Ae0B9wUcAQcB8AH0A64CkQa0BLUBBwS7AQkBuwEJAbwBBwERAiIBEAEiAhECIgFEAe8E/wH0AW0DQwEV
+        AUQB9AL/AfYB9AHxAfIC8wH2Fv8B7QFEAUUFJANGAW4D9wJGAUUBRAFFAUQBDwHsEv88AAKuA5EB6wFt
+        ARIDFAJmA2wBiwORArQCtQa0Aa4Bzwu0AbMEiwGuA5EBkgH3AxwBBwHwAfQDrgKRBbQFtQEHAbwDBwK7
+        AfEB8wHxAhEBIgEQASICEQEiAUMBRAHxBf8B9AHsA0MBRAHvBP8B9AHzAfQY/wHvASICRQQkA0YBbwH3
+        ApICRgFFAUMCRAEOAW0S/zwAAq4DkQHrAeoBEgMUA2YDbAOLAa4BtAO1BLQDrgu0AbMGiwGuA5EB7QGS
+        ARwBBwHwAfQDrgGRBrQCtQG7ArUCBwLwAfEBCQG7ArwBBwEiAREBIgEQBCIBQwFKCP8B7wFEAREBRAEH
+        Av8B9gH/AvQB9gH/AfYW/wHwARABIwUkA0YBbgL3AZICRgFFARABIgFFAQ8BEhL/PAACrgORAesB6gES
+        ARQBEwNmBGwDiwGuAbQDtQS0A64LtAGtCIsDkQHtAZIB7wHwAfMErga0AbUCvAG7BLUEuwIJAewBEQEQ
+        BSIBEQFDAUoJ/wHzAZIBHAX/AvQB8wL0Av8B9BT/ARMBDgFFBCQDRgFuAfcBkgH3A0YBDwEOAUQBFAHq
+        Ev88AAKuA5EB6wFtAeoFEgNsBIsBkQG0A7UFtAGuC7QBrQqLA64B7AH3AbwB8wSuB7QJtQK7AgkB6wEi
+        AREBRAEiAREBIgEQASIBQwFuEf8C9ATzAfQV/wG8AQ4BDwFFAyQDRgFMAfcBkgH3A0YBRAEPAREBEwHy
+        Ev88AAKRBK4B6wJtAuoBEgHqAW0B6waRAbQDtQi0ArUCtAuLA60EiwKuAbUBvAHzBK4ItAi1ArsCCQHq
+        ARABQwFEAhEB6wIRAUMB7BL/AfQE8wL0Ff8BvAEUAQ4BIgEjASQDRgFMAfcCkgRGAUQBEgH3E/88AAKR
+        BK4D6wRtAesHkQS1CLQCtQG0Ac8KiwStBoYBzwEHAfMErgHPCbQFtQK7AwkB6wERAkQBEQEVAbwBFQER
+        AUMBcxL/AfYB/wX0F/8B8gLwAUUERgKSAe0BRQRGARoU/zwAApEFrgTrAW0B6wHsB5EBtAK1CbQCtQG0
+        Aa4KiwStAosEhgHPAQcB8wSuC7QEtQG7BQkBEwFKAUMBEQFEAQcBEgERARUB7BX/AvQb/wEbAUUERgL3
+        AZIBSwRGAW8U/zwAApEGrgPrAW0BrgHsAZEBtAaRDrQBrgWLCK0GrgGGAbUBvAHzBK4Bzwq0ArUCuwIJ
+        AbwC8AEJAfcBEwFDAREBRAEHAW0BEQEVAW4X/wH0Gv8B8wFFBEYBkgL3AUsERgFMFP88AAKuBJEIrgO1
+        BZECrgy0BIsBrQK0Ba0EkQPsAq4BtQG8AfMErgHPC7QBtQG7AbwB8QHyAfMC9AG8AQkB6wIRAUQB8AHr
+        AREBQwFuM/8BRQNGAUUBkgL3AW4FRhT/PAACrgSRB64BzwO1AbQDkQSuC7QEiwO0AbMDrQGzA5EBkgIc
+        Ae0B7AGuAfcBvAHzBK4Bzwu0ArUBvAL0AfYC9AHxAQkB8AEUAREBRAHvAW0BEQFDAW4z/wFLAUUBRgEl
+        AUsB7QGSAfcB7QVGFP88AA6uA7UBtASRAq4MtAGuAosBrgS0A60DkQHtAxwBcwLsAfcBvAHzBK4MtAK1
+        AbsB9AT/AfQB8gHdAe0BQwFEAfcB6wERAUMBbQHzMv8BbwJFC0YB9hP/PAAErgOLAoYGrgHPFLQErgG0
+        AbUCtAKtAYsCkQGSARwDeQF0AXMB7AHvAfAB8wSuDLQCtQG7AfAB8wX/AfMBvAFDAUQB9wG1AhEBEgEJ
+        ARkR/wH2H/8BkwNFCEYBRQFGARsT/zwAA64HhgeuBbQCtQy0A64B7AGSAvcBkQGuAosBkQHtAhwCeQFY
+        AXkCcwEcAbwB8wOuAc8MtAK1AbwB8Qb/AfAB8QESARUB7QEJARMBQwETAQkB3TH/AZMBJARFBkYBRQFu
+        ARoT/zwAAq4IhgeuAc8DtAS1C7QDrgHsA/cBkQGuAYsBrgGRAe0BHAJ5AlkBWAF0AXMBmQHwAfMDrgHP
+        AbQBtQm0ArUBBwHzAfQG/wHyAQkB6wFDAfcBCQHsAUMBRAG7ARkR/wH2H/8BbwFFASQGRQRGAe0B8xP/
+        PAABrgGLB4YCrgLsBa4EtAO1CrQBzwSuAZEB7QKRAosBrgHsAZIBHAJ5AlkBeQF0AXMBmQHwAfMCrgLP
+        BbQCtQS0AbUBBwHzAv8C8wH/AfQC/wHxAQkBtQFtAbsBCQG1AREBQwG1AQkB3Q//AfQB9h//AW8BRgEk
+        AUUBJARFASQDRgFuAfQT/zwAAosHhgKuAe0B7AKuBYsEzwG0ArUDtAPPAa0DiwGGAYsCrgGRAa4DiwGu
+        AewBHAGZAnkCegJ5ARwB7wHwAfQBrgPPC7QBuwG8AfQC/wHzAfQB/wHwAfQB8gEJA7sBCQG7AbUCQwG1
+        ARkB9A7/AfQB8wL0Hv8BbwElCUUCRgFLAfQT/zwAAosHhgGuAewBkgHtAewBrgaLBM8DtQG0A88BrQOL
+        BIYGiwGRAe0BHAKZA3oBeQIcAQcB8AH0Aa4Dzwu0AbUBuwHyAvQB8wL/AfIB8wEJAbsBCQG8BAkBEgFD
+        AQkB8wH0Bv8E9AP/AvQC8wH0Av8B9Bv/AZMDJANFAUYERQFGAUUB9BP/PAACiweGAa4B7ALtAa4HiwXP
+        ArUEzwGuBIsDhgaLAa4B7QEcApkBeQJ6AXkCHAEHAfAB9AGuBM8KtAG1AbsBtQIJAbwB/wHzAfABCQG1
+        AbsBvAHxAvACCQK1AQkB8wX/AfQE/wH0AvMD9ALzBPQc/wFLASQCRQhGAUUB8xP/PAABiwiGAYwErgeL
+        Aa4KzwKuAZECrgGLA4YFiwGuAZEB9wKZBHkCHAEHAfAB9AKuBM8JtAS1AbsBCQG8AbsBtQK7AQkB8QHz
+        AfEB8AQJAd0B8gHzAvQB/wH2Bf8C9AL/AfMB9ALzBfQb/wH0ARwBbgFvAW4BSwVFAUYBRQG8E/88AAOG
+        Aa0BzwGnBYYCrgGLA4YEiweuA4YCrgGRAe0BkQOuBIYDiwGuAZEBkgIcBHkCHAEHAfAB8wKuA88OtAS1
+        AbsECQHxAvMB8AIJAvEE8wP0BPMC9AL/BPQB8wP0AfMk/wHzARoBkwGZAfMT/zwAAoYBpwPPC4YEiwSu
+        BoYCrgP3Ae0DrgSGAosBrgGRAe0B9wIcAnkCHAGSAe8B8AHzAa4CzxC0BLUBuwEJAbwB3QHwAfEB8gHx
+        AbwBCQG8AfIC8wH0BfMB8QHwAvEB8wP/AfMB9AL/AvQ//zwAAoYEzwGLCoYDiwWuBoYCrgHtAfcB7QOu
+        AYsEhgOLAa4BkQHtAZICHAF4ARwB7QHsAe8B8AHzAc8BrgG0BLUMtAa1AbwB8QHyAfAEvALwAfIC8wLy
+        AvMB8QPwAfEB8wH0BPND/zwAAYYBiwHPAbQBtQHPAa4BiwmGAYsBkQG0AZEErgGLBoYCrgHtAewCrgKL
+        BoYBiwKuApEF7AGuAfcBvAHzA7UC7wG8Ae8BtQm0AbUEtAO1AQkB8QHyAbwBuwEHA7wB8AHxBPID8QTw
+        AfIC8wHyAvMD9ED/PAABiwGuAbQDtQGuBIsCrgOGAYsBrgO0AZEDrgOLBIYFrgOLB4YCiwOuAZEDrgGL
+        AbUBvAHzAbUBBwG8AgcBvAEHArUItAG1BLQBtQG7ArUBCQHdArsCBwK8AvAD8wHyAfEG8AHyA/MB9AH/
+        AvQC8wL0Pf88AAGLAa4BkQHvAQcB9wGRA4sDrgOGAYsBtAG1AbsBtQGRA64DiwWGA64EiwiGB4sChgHP
+        AQcB8wHPAbUB7wG1A7wBBwG1BLQBtQi0ArUDuwG1AbsDBwK8AfAB8QTzAfIB8QXwAfMB9AP/AvQB/wH0
+        A/MB9Dz/PAABQgFNAT4HAAE+AwABKAMAAfADAAE8AwABAQEAAQEFAAGAAQcWAAP//wD/AP8A/wD/AP8A
+        /wCIAAs=
+</value>
+  </data>
+  <data name="TabPage2.Text" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="btnDrucken.Text" xml:space="preserve">
+    <value>&amp;In ra</value>
+  </data>
+  <data name="btnVorschau.Text" xml:space="preserve">
+    <value>&amp;xem trước...</value>
+  </data>
+  <data name="DateiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 20</value>
+  </data>
+  <data name="DateiToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;tập</value>
+  </data>
+  <data name="BeendenToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;cuối</value>
+  </data>
+  <data name="WerkzeugeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="WerkzeugeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Công cụ</value>
+  </data>
+  <data name="RechnungenAuflistenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="RechnungenAuflistenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Danh sách hóa đơn...</value>
+  </data>
+  <data name="NeuerKundeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="NeuerKundeToolStripMenuItem.Text" xml:space="preserve">
+    <value>New khách hàng...</value>
+  </data>
+  <data name="RoutenplanerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="RoutenplanerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Route kế hoạch...</value>
+  </data>
+  <data name="EinstellungenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="EinstellungenToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Cài đặt</value>
+  </data>
+  <data name="DatenbankeinstellungenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="DatenbankeinstellungenToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Thiết lập cơ sở dữ liệu...</value>
+  </data>
+  <data name="EinstellungenToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="EinstellungenToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Cài đặt</value>
+  </data>
+  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 6</value>
+  </data>
+  <data name="StartnummernToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="StartnummernToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Số ...</value>
+  </data>
+  <data name="SpracheToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="SpracheToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Ngôn ngữ</value>
+  </data>
+  <data name="DeutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="DeutschToolStripMenuItem.Text" xml:space="preserve">
+    <value>Đức</value>
+  </data>
+  <data name="EnglischToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="EnglischToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tiếng Anh</value>
+  </data>
+  <data name="VietnamesischToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="VietnamesischToolStripMenuItem.Text" xml:space="preserve">
+    <value>Việt</value>
+  </data>
+  <data name="btnLöschen.Text" xml:space="preserve">
+    <value>&amp;xóa danh sách</value>
+  </data>
+</root>
